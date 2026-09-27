@@ -49,7 +49,6 @@ jspm_packages/
 .eslintcache
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -60,7 +59,6 @@ jspm_packages/
 Thumbs.db
 
 # Secrets and configuration
-.env
 *.env
 .npmrc
 config.json
@@ -126,7 +124,6 @@ output/
 .claude/
 
 # --- secrets hardening (never commit) ---
-.env.*
 !.env.example
 *.pem
 *.key
@@ -134,3 +131,4 @@ output/
 *.pfx
 service-account*.json
 gsc*.json
+config.bat
